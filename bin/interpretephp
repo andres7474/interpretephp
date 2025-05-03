@@ -1,0 +1,9 @@
+
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use InterpretePHP\REPL;
+
+$repl = new REPL();
+$repl->run();

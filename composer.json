@@ -1,0 +1,12 @@
+{
+    "name": "andres7474/interpretephp",
+    "description": "Un interprete PHP",
+    "autoload": {
+        "psr-4": {
+            "InterpretePHP\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
